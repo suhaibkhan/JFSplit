@@ -1,0 +1,31 @@
+JFSplit version 1.0.1
+---------------------
+
+JFSplit is a free file splitter and joiner with a number options to split 
+and join your files efficiently. Cross-platform (tested in Windows XP(SP2) 
+and Linux(Ubuntu 10.04.1) tool programmed in Java and requires 
+Java Runtime Environment (1.6 or later) to use this tool.
+
+Get latest version of Java for your computer from <http://java.com/download>.
+
+This tool uses MiGLayout <http://www.miglayout.com/> which is an
+Open Source Java Layout Manager used to layout GUI components.
+
+Copyright (C) 2012 Suhaib Khan
+Contact me at : suhaibklm@gmail.com
+
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions; See COPYING file for details.
+
+CHANGES in v1.0.1
+-----------------
+- Bugs fixed.
+
+HOW TO
+-------
+1) Install Java Runtime Environment (version 1.6 or later).
+2) Run the utility either by double clicking in the jar file
+   (jfsplit-1_0_1-jar.jar) or via command line by
+	java -jar jfsplit-1_0_1-jar.jar
+	
