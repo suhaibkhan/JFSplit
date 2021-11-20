@@ -19,32 +19,16 @@
  * 
  */
 
-package jfsplit.gui;
+package com.jfsplit.gui;
 
+import com.jfsplit.core.*;
+import net.miginfocom.swing.MigLayout;
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JProgressBar;
-import javax.swing.JRadioButton;
-import javax.swing.JSpinner;
-import javax.swing.JTextField;
-import javax.swing.border.TitledBorder;
-
-import jfsplit.core.FileOperations;
-import jfsplit.core.FileProcess;
-import jfsplit.core.FileSplitProcess;
-import jfsplit.core.Status;
-import jfsplit.core.ProcessCaller;
-
-import net.miginfocom.swing.MigLayout;
 
 /**
  * Panel which contains required gui elements for file splitter

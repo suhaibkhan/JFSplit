@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package jfsplit.core;
+package com.jfsplit.core;
 
 /**
  * The <code>ProcessCaller</code> interface specifies the methods an object

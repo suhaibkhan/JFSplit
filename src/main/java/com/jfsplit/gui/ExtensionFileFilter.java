@@ -19,13 +19,12 @@
  * 
  */
 
-package jfsplit.gui;
+package com.jfsplit.gui;
 
-import java.io.File;
+import com.jfsplit.core.FileProcess;
 
 import javax.swing.filechooser.FileFilter;
-
-import jfsplit.core.FileProcess;
+import java.io.File;
 
 /**
  * This class is a FileFilter implementation used to filter files in a
