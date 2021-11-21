@@ -19,19 +19,13 @@
  * 
  */
 
-package jfsplit.gui;
-
-import java.io.IOException;
-import java.net.URL;
-
-import javax.swing.ImageIcon;
-import javax.swing.JEditorPane;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.SwingConstants;
+package com.jfsplit.gui;
 
 import net.miginfocom.swing.MigLayout;
+
+import javax.swing.*;
+import java.io.IOException;
+import java.net.URL;
 
 /**
  * Panel which contains necessary information about the utility (About Panel)
@@ -75,7 +69,7 @@ public class FileSplitterAboutPanel extends JPanel {
 
 		JPanel panel_about_bac = new JPanel(new MigLayout("inset 0, center"));
 		ImageIcon imageicon_logo = new ImageIcon(
-				Class.class.getResource("/resources/jfsplit_logo.png"));
+				FileSplitterAboutPanel.class.getClassLoader().getResource("jfsplit_logo.png"));
 		int img_width = imageicon_logo.getImage().getWidth(null);
 		panel_about_bac.add(new JLabel(imageicon_logo),
 				"center, wrap, gaptop 10");

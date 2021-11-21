@@ -19,7 +19,7 @@
  * 
  */
 
-package jfsplit.core;
+package com.jfsplit.core;
 
 /**
  * The <code>Status</code> class is used to pass necessary information from

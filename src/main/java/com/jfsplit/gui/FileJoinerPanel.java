@@ -19,39 +19,20 @@
  * 
  */
 
-package jfsplit.gui;
+package com.jfsplit.gui;
 
+import com.jfsplit.core.*;
+import net.miginfocom.swing.MigLayout;
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import java.io.File;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JProgressBar;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.border.TitledBorder;
-import javax.swing.table.DefaultTableModel;
-
-import jfsplit.core.FileJoinProcess;
-import jfsplit.core.FileOperations;
-import jfsplit.core.FileProcess;
-import jfsplit.core.ProcessCaller;
-import jfsplit.core.Status;
-import jfsplit.gui.ExtensionFileFilter;
-
-import net.miginfocom.swing.MigLayout;
 
 /**
  * Panel which contains required gui elements for file joiner

@@ -18,14 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package jfsplit;
+package com.jfsplit;
 
-import java.awt.EventQueue;
+import com.jfsplit.gui.FileSplitterFrame;
 
-import javax.swing.JOptionPane;
-import javax.swing.UIManager;
-
-import jfsplit.gui.FileSplitterFrame;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Starts JFSplit tool. The starting point (main method) 
